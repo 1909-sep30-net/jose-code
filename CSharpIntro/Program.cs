@@ -13,7 +13,9 @@ namespace CSharpIntro
             string s1 = "Jose";
             int i1 = 0;
 
-            // Chnage their values to something else
+            // Change their values to something else
+            // CW shortcut for Console.WriteLine
+            
             b1 = false;
             s1 = "Nicolas";
             i1 = 1;
@@ -73,8 +75,17 @@ namespace CSharpIntro
 
             // figure out how to format your document in VS Code
 
-            // extra: make a 
-            // extra: 
+           
+            // extra: make a new static method to do something and call it
+            //static int Method1 (int value){
+             //   int i2 = value + 2
+             //   Console.WriteLine(i2);
+           // }
+           // Method1(i1);
+
+            // extra: learn what "var" means in C# and try it out.
+           var x = "hi";
+           Console.WriteLine(x);
         }
     }
 }
