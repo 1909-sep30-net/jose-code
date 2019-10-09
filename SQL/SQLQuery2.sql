@@ -31,7 +31,11 @@ FROM Employee;
 select FirstName, LastName
 from Employee;
 
+<<<<<<< HEAD
 -- Display all first names 5 letters long or shoater. Len(value)
+=======
+-- Display all first names 5 letters long or shorter. Len(value)
+>>>>>>> 195d7f7d3fa83668b3d10ad46704af7983275879
 select *
 from Employee
 where LEN(FirstName) <= 5;

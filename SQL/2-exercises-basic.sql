@@ -37,6 +37,7 @@ where InvoiceDate like '%2009%'
 group by InvoiceDate;
 
 -- 6. how many line items were there for invoice #37?
+<<<<<<< HEAD
 select Quantity, InvoiceId
 from InvoiceLine
 where InvoiceId= 37;
@@ -56,3 +57,12 @@ from Invoice
 group by BillingCountry order by sum(Total)DESC;
 
 
+=======
+select 
+from Invoice
+
+
+-- 7. how many invoices per country?
+
+-- 8. show total sales per country, ordered by highest sales first.
+>>>>>>> 195d7f7d3fa83668b3d10ad46704af7983275879
